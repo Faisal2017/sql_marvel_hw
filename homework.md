@@ -38,12 +38,7 @@ SELECT name FROM people;
 
 4. Return ONLY your name from the 'people' table.
 
-SELECT name FROM people WHERE name = 'Faisal Ali'
-
-    name    
-------------
- Faisal Ali
-(1 row)
+SELECT name FROM people WHERE name = 'Faisal Ali';
 
 
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
@@ -87,3 +82,4 @@ SELECT * FROM movies;
 
 1. Research how to delete multiple entries from your table in a single command.
 
+DELETE FROM movies where id between 1 and 15; 

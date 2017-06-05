@@ -78,3 +78,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '21:
 
 -- UPDATE movies set show_time = '21.30' where title = 'Guardians of the Galaxy' AND show_time = '19:05';
 -- SELECT * FROM movies;
+
+-- DELETE FROM movies WHERE id BETWEEN 1 AND 15;
+-- SELECT * FROM movies;
